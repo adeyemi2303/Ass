@@ -1,0 +1,26 @@
+/* Table Styles */
+table {
+    width: 90%;
+    margin: 30px;
+    border: solid 6px; 
+}
+
+th {
+    padding: 12px;
+    text-align: left;
+    border-radius: 4px;
+    background-color: yellow;
+    color: white;
+}
+
+tr {
+    background-color: red;
+
+td[rowspan] {
+    font-weight: bolder;
+    vertical-align: middle;
+}
+td[columns]  {
+    font-weight: normal;
+    vertical-align: middle;
+}

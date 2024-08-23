@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+        <h1>Signup</h1>
+        Take the next steps to apply at Altschool Africa
+    <title>Altschool Form </title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: white
+            margin: 2;
+            padding: 6;
+            align-items: center;
+            height: 100vh;
+        }
+
+        form {
+            background-color: white;
+            padding: 20px;
+            border-radius: 8px;
+            width: 400px;
+        }
+
+        label {
+            display: block;
+            margin-bottom: 8px;
+            font-weight: bold;
+            color:black;
+        }
+
+        input[type="text"], input[type="email"], input[type="tel"], input[type="date"], textarea, select {
+            width: 100%;
+            padding: 0px;
+            margin-bottom: 9px;
+            border: 1px solid black;
+            border-radius: 1%;
+            font-size: 15px;
+        }
+
+        textarea {
+            height: 25px;
+        }
+
+        button {
+            width: 90%;
+           background-color: red;
+            color: black;
+            border-radius: 10px;
+            cursor: pointer;
+            font-size: 17px;
+        }
+
+        a {
+            margin-top: 30px;
+            text-align: end;
+            color: black
+        }
+
+    </style>
+</head>
+<body>
+
+<form>
+    <label>First name</label>
+    <textarea></textarea>
+
+    <label>Second name</label>
+    <textarea></textarea>
+
+    <label for="gender">Gender</label>
+    <select id="gender" name="gender">
+        <option value="" disabled selected>Select gender</option>
+        <option value="male">Male</option>
+        <option value="female">Female</option>
+        <option value="other">Other</option>
+    </select>
+
+    <label for="dob">Date of Birth</label>
+    <input type="date" id="dob" name="dob">
+
+    <label for="email">Email Address</label>
+    <input type="email" id="email" name="email" placeholder="Enter email address">
+
+    <label for="phone">Phone Number</label>
+    <input type="tel" id="phone" name="phone" placeholder="Enter phone number">
+
+    <label for="country">Country</label>
+    <select id="country" name="country">
+        <option value="" disabled selected>Select your country</option>
+        <option value="NG">Nigeria</option>
+    </select>
+
+    <label for="state">State/City of residence</label>
+    <input type="text" id="state" name="state">
+
+    <label for="hear">How do you hear about us</label> 
+    <input type="text" id="hear" name="hear">
+
+    <label for="password">Password</label>
+    <input type="text" id="password" name="password">
+
+    <label for="confirm_password">Confirm Password</label>
+    <input type="text" id="confirm_password" name="confirm_password">
+
+    <p>By clicking continue, I agree to the Terms of Use and acknowledge that I have read the Privacy Policy.</p>
+
+    <button type="submit">SUBMIT</button>
+</form>
+
+<a href="INDEX.HTML">About me</a>
+
+</body>
+</html>
